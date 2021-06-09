@@ -81,18 +81,51 @@ header {
     float: left;
   }
   .lesson {
-    padding: 10px;
+    padding: 25px;
     float: left;
   }
   .lesson-wrapper {
     width: 100%;
     height: 500px;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 80px;
+    padding-top: 30px;
     background-color: #E4DEE4;
     text-align: center;
+  }
+  .lesson-wrapper {
+    width: 100%;
+    height: 500px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    background-color: #E4DEE4;
+    text-align: center;
+  }
+  .lesson-wrapper2 {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  .lesson2 {
+    float: left;
+    width: 20%;
+  }
+  
+  .lesson-icon2 {
+    position: relative;
+      font-size: 15px;
+  }
+  
+  
+  .txt-contents2 {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px; 
   }
   .lesson-icon p {
       padding-top: 20px;
@@ -106,10 +139,10 @@ header {
     background-color: blanchedalmond;
     text-align: center;
     height: 500px;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 10px;
-    padding-top: 80px;
+    padding-top: 30px;
   }
   .bottom-wrapper a {
     text-align: center;
