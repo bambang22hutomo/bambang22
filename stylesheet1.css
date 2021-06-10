@@ -60,3 +60,30 @@ span {
   margin-top:5px;
   text-align:center;
 }
+header {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  background-color: darkgray;
+  top: 0;
+  z-index: 10;
+  opacity: 90%;
+}
+.header-left {
+  float: left;
+}
+.logo {
+  width: 150px;
+  padding: 20px;
+}
+.header-right {
+  float: right;
+  padding: 20px;
+}
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: #030027;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
