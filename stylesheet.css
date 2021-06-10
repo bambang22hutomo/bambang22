@@ -86,6 +86,7 @@ header {
   }
   .lesson-wrapper a {
     text-decoration: none;
+    text-align: center;
   }
   .lesson-wrapper {
     width: 100%;
@@ -137,6 +138,7 @@ header {
   }
   .bottom-wrapper a {
     text-align: center;
+    text-decoration: none;
   }
   .w3-animate-top {
     animation-duration: 5s;
@@ -171,10 +173,4 @@ header {
     font-size: 25px;
     padding: 25px 0;
     display:none;
-  }
-  .lesson-wrapper a {
-    text-decoration: none;
-  }
-  .bottom-wrapper a {
-    text-decoration: none;
   }
