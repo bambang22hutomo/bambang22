@@ -1,0 +1,43 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+body {
+    font-family: "Avenir Next";
+  }
+  .heading{
+     border-bottom:10px solid darkgray;
+     padding:20px 20px;
+  }
+  .heading h2{
+    font-size:50px;
+    margin-left:30px;
+  }
+  span {
+    color:darkgray;
+  }
+  .lesson-wrapper {
+    background-color:#E4DEE4;
+    height:1900px;
+    width:1300px;
+    display:inline-block;
+  }
+  .lesson-icon {
+    padding-top:30px;
+    padding-left:40px;
+    margin-left:40px;
+    margin-top:20px;
+    float:left;
+    width:40%;
+    text-align:center;
+  }
+  .lesson-icon p {
+    font-size:20px;
+    margin-top:10px;
+  }
+  .lesson-icon a {  
+    text-decoration:none;
+    color:#696969
+  }
