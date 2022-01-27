@@ -1,0 +1,151 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+header {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    background-color: darkgray;
+    top: 0;
+    z-index: 10;
+    opacity: 90%;
+  }
+  .header-left {
+    float: left;
+  }
+  .logo {
+    width: 120px;
+    padding: 20px;
+  }
+  .header-right {
+    float: right;
+    padding: 20px;
+  }
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: #030027;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+  }
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://images.pexels.com/photos/10986060/pexels-photo-10986060.jpeg?cs=srgb&dl=pexels-bambang-hutomo-10986060.jpg&fm=jpg);
+    background-size: cover;
+    color: black;
+    text-align: center;
+  }  
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+  }
+  .top-wrapper p {
+      font-size: 20px;
+      letter-spacing: 1px;
+      margin-bottom: 5px;
+  }
+  .btn-wrapper {
+    margin: 20px 0;
+  }
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  .btn:hover {
+    opacity: 1;
+  }
+  .instagram {
+      background-color: #3f729b
+  }
+  .youtube {
+    background-color: #c4302b;
+  }
+  .fa {
+    margin-right: 5px;
+  }
+  .lessons {
+    padding: 50px;
+    padding-left: 170px; 
+    float: left;
+  }
+  .lesson {
+    padding: 60px;
+    float: left;
+  }
+  .lesson-wrapper {
+    width: 100%;
+    height: 500px;
+    padding-bottom: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 80px;
+    background-color: #E4DEE4;
+    text-align: center;
+  }
+  .lesson-icon p {
+      padding-top: 20px;
+  }
+  .lesson-icon a {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+  }
+  .bottom-wrapper {
+    background-color: blanchedalmond;
+    text-align: center;
+    height: 500px;
+    padding-bottom: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 80px;
+  }
+  .bottom-wrapper a {
+    text-align: center;
+  }
+  .w3-animate-top {
+    animation-duration: 5s;
+  }
+  footer img {
+    width: 100px;
+  }
+  .footer-right {
+    text-align: right;
+  }
+  .footer-left {
+    text-align: left;
+    margin-top: 10px;
+  }
+  footer p {
+    color: black;
+    font-size: 12px;
+    float: left;
+  }
+  
+  footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: darkgray;
+  }
+  .clear {
+    clear: left;
+  }
+  i {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 25px 0;
+    display:none;
+  }
