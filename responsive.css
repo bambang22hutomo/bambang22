@@ -14,6 +14,7 @@
     }
     .bottom-wrapper {
         height: 1200px;
+        text-align: center;
     }
     i {
         display: none;
