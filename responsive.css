@@ -23,15 +23,13 @@
 
 @media (max-width: 670px) {
     .lessons {
+        height: 320px;
         width: 100%;
     }
     .lesson {
         width: 100%;
     }
     .lesson img {
-        width: 100%;
-    }
-    .lessons img {
         width: 100%;
     }
     footer {
@@ -48,7 +46,7 @@
         text-align: center;
         padding-top: 130px;
       }
-      .bottom-wrapper {
+    .bottom-wrapper {
         height: 2200px;
     }
     .header-right {
